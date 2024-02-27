@@ -2,7 +2,7 @@
 
 This project is a tool for replace the current interview tools in Apex interviews
 
-This frontend project tryies to provide the minimal UI tools with all the necesary for a code interview
+This frontend project tries to provide the minimal UI tools with all the necesary for a code interview
 
 Main features:
 * Multiple languaje support adding API endpoints, currently working with Java 21 and Python 3
