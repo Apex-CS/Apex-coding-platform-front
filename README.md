@@ -1,4 +1,4 @@
-## Apex Coding-Platform Front
+## Apex Coding Platform Front
 
 This project is a tool for replace the current interview tools in Apex interviews
 
