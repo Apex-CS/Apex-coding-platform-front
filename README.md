@@ -8,7 +8,7 @@ Main features:
 * Multiple languaje support adding API endpoints, currently working with Java 21 and Python 3
 * Real time update on multiple origins with the same URL
 
-![alt text](img/SS.png)
+![alt text](public/img/SS.png)
 
 ### `npm run start`
 
