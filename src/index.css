@@ -12,6 +12,16 @@ body {
   display: flex;
 }
 
+.vertical-pane {
+  padding-top: 0px;
+  height: 100vh;
+  display: flex;
+}
+
+.resizer {
+  height: 0px;
+}
+
 .editor-container {
   flex-grow: 1;
   flex-basis: 0;

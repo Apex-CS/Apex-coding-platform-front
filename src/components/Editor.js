@@ -3,13 +3,18 @@ import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/material-darker.css'
 import 'codemirror/mode/clike/clike'
 import 'codemirror/mode/powershell/powershell'
+import 'codemirror/mode/markdown/markdown'
 import 'codemirror/mode/python/python'
 import "codemirror/addon/hint/show-hint";
+import "codemirror/addon/hint/show-hint.css";
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import {javaLanguage} from "@codemirror/lang-java"
 
-export default function Editor(props) {
+
+
+export default function CodeEditor(props) {
   
   const {
     language,
@@ -63,9 +68,13 @@ export default function Editor(props) {
           theme: 'material-darker',
           lineNumbers: lineNumbers,
           indentWithTabs: true,
-          autocomplete: true,
+          autocomplete: javaLanguage,
+          extraKeys: {
+            "Ctrl-Space": "autocomplete"
+          },
           smartIndent: true,
           autofocus: true,
+          
         }}
       />
     </div>
