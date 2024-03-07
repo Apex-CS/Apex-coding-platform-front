@@ -1,7 +1,8 @@
 import { useEffect, useState } from 'react'
 
 const pathSession = window.location.href.split('/')[3]
-const PREFIX = 'apex-code-challenge-' + pathSession
+const testCase = window.location.href.split('/')[4]
+const PREFIX = 'apex-code-challenge-' + pathSession +"-"+ testCase
 
 export default function useLocalStorage(key, initialValue) {
   const prefixedKey = PREFIX + key

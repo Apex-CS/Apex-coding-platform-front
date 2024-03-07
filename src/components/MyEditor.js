@@ -1,14 +1,40 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import {Editor, EditorState} from 'draft-js';
-import 'draft-js/dist/Draft.css';
 
-function MyEditor() {
-  const [editorState, setEditorState] = React.useState(
-    () => EditorState.createEmpty(),
+import { createEditor } from 'slate';
+import {
+  Editable,
+  Slate,
+} from 'slate-react';
+
+const MyEditor = () => {
+  const editor =
+    createEditor();
+
+  const initialDocument =  {
+    children: [
+      {
+        type: 'paragraph',
+        children: [
+          {
+            text: 'A line of text!',
+          },
+        ],
+      },
+    ],
+  }
+
+  return (
+    <>
+      <div>Editor</div>
+      <Slate
+        editor={editor}
+        value={
+          initialDocument
+        }>
+        <Editable />
+      </Slate>
+    </>
   );
-
-  return <Editor editorState={editorState} onChange={setEditorState} />;
-}
+};
 
 export default MyEditor;

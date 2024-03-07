@@ -31,6 +31,8 @@
     "react-simple-wysiwyg": "^3.0.2",
     "react-stomp-hooks": "^2.1.0",
     "react-use-websocket": "^4.7.0",
+    "slate": "^0.102.0",
+    "slate-react": "^0.102.0",
     "sockjs": "^0.3.24",
     "sockjs-client": "^1.6.1",
     "stompjs": "^2.3.3",

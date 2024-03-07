@@ -1,15 +1,18 @@
 import React from 'react';
 import 'codemirror/lib/codemirror.css'
+import 'codemirror/theme/3024-night.css'
+import 'codemirror/theme/dracula.css'
 import 'codemirror/theme/material-darker.css'
 import 'codemirror/mode/clike/clike'
+import 'codemirror/mode/clike/clike'
 import 'codemirror/mode/powershell/powershell'
-import 'codemirror/mode/markdown/markdown'
+import 'codemirror/mode/xml/xml'
 import 'codemirror/mode/python/python'
 import "codemirror/addon/hint/show-hint";
 import "codemirror/addon/hint/show-hint.css";
 import { Controlled as ControlledEditor } from 'react-codemirror2'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPlay } from '@fortawesome/free-solid-svg-icons'
+import { faPlay, faPlayCircle } from '@fortawesome/free-solid-svg-icons'
 import {javaLanguage} from "@codemirror/lang-java"
 
 
@@ -22,7 +25,8 @@ export default function CodeEditor(props) {
     value,
     onChange,
     lineNumbers,
-    funtion
+    funtion,
+    theme
   } = props
   
 
@@ -44,13 +48,23 @@ export default function CodeEditor(props) {
         </button>
       )
     }
+    else if(displayName === "Test Cases"){
+      return(
+        <button
+          type="button"
+          className="run-btn"
+          onClick={() => funtion()}
+          > 
+          <FontAwesomeIcon icon={faPlayCircle} /> Run Test Cases
+        </button>
+      )
+    }
     else if(displayName.includes("Main")){
       return(
         funtion()
       )
     }
   }
-
   return (
     <div className={"editor-container"}>
       <div className="editor-title">
@@ -65,7 +79,7 @@ export default function CodeEditor(props) {
           lint: true,
           mode: language,
           matchBrackets: true,
-          theme: 'material-darker',
+          theme: theme===undefined? "default":theme,
           lineNumbers: lineNumbers,
           indentWithTabs: true,
           autocomplete: javaLanguage,

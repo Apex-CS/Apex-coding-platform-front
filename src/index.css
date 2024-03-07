@@ -3,11 +3,11 @@ body {
 }
 
 .top-pane {
-  background-color: hsl(225, 6%, 25%);
+  background-color: #212529;
 }
 
 .pane {
-  padding-top: 3vh;
+  padding-top: 3.8vh;
   height: 100vh;
   display: flex;
 }
@@ -27,8 +27,8 @@ body {
   flex-basis: 0;
   display: flex;
   flex-direction: column;
-  padding: .5rem;
-  background-color: hsl(225, 6%, 25%);
+  padding: .3rem;
+  background-color: hsl(0, 4%, 10%);
 }
 
 .editor-container.collapsed {
@@ -41,9 +41,9 @@ body {
 }
 
 .run-btn {
-  padding: 0.2rem;
-  border-radius: .3rem;
-  padding: 5px;
+  border-radius: .2rem;
+  padding: 3px;
+  padding: .1rem .5rem .1rem 0.5rem;
   background: rgb(23, 172, 23);
   border: none;
   color: white;
@@ -53,7 +53,7 @@ body {
 .editor-title {
   display: flex;
   justify-content: space-between;
-  background-color: #212529;
+  background-color: #000000;
   color: white;
   padding: .5rem .5rem .5rem 1rem;
   border-top-right-radius: .3rem;
