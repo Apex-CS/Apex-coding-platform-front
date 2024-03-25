@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Apex-coding-platform-front/static/css/main.b0b8545d.chunk.css",
-    "main.js": "/Apex-coding-platform-front/static/js/main.3efc9fc3.chunk.js",
-    "main.js.map": "/Apex-coding-platform-front/static/js/main.3efc9fc3.chunk.js.map",
-    "runtime-main.js": "/Apex-coding-platform-front/static/js/runtime-main.93c6fb97.js",
-    "runtime-main.js.map": "/Apex-coding-platform-front/static/js/runtime-main.93c6fb97.js.map",
-    "static/css/2.1a6dc111.chunk.css": "/Apex-coding-platform-front/static/css/2.1a6dc111.chunk.css",
-    "static/js/2.c98b7fec.chunk.js": "/Apex-coding-platform-front/static/js/2.c98b7fec.chunk.js",
-    "static/js/2.c98b7fec.chunk.js.map": "/Apex-coding-platform-front/static/js/2.c98b7fec.chunk.js.map",
-    "index.html": "/Apex-coding-platform-front/index.html",
-    "precache-manifest.a402e99c458cb042de173da6ad784a33.js": "/Apex-coding-platform-front/precache-manifest.a402e99c458cb042de173da6ad784a33.js",
-    "service-worker.js": "/Apex-coding-platform-front/service-worker.js",
-    "static/css/2.1a6dc111.chunk.css.map": "/Apex-coding-platform-front/static/css/2.1a6dc111.chunk.css.map",
-    "static/css/main.b0b8545d.chunk.css.map": "/Apex-coding-platform-front/static/css/main.b0b8545d.chunk.css.map",
-    "static/js/2.c98b7fec.chunk.js.LICENSE.txt": "/Apex-coding-platform-front/static/js/2.c98b7fec.chunk.js.LICENSE.txt"
+    "main.css": "/ApexCodingPlatform/static/css/main.b0b8545d.chunk.css",
+    "main.js": "/ApexCodingPlatform/static/js/main.a5b2b45a.chunk.js",
+    "main.js.map": "/ApexCodingPlatform/static/js/main.a5b2b45a.chunk.js.map",
+    "runtime-main.js": "/ApexCodingPlatform/static/js/runtime-main.d0b7a474.js",
+    "runtime-main.js.map": "/ApexCodingPlatform/static/js/runtime-main.d0b7a474.js.map",
+    "static/css/2.1a6dc111.chunk.css": "/ApexCodingPlatform/static/css/2.1a6dc111.chunk.css",
+    "static/js/2.b1b17419.chunk.js": "/ApexCodingPlatform/static/js/2.b1b17419.chunk.js",
+    "static/js/2.b1b17419.chunk.js.map": "/ApexCodingPlatform/static/js/2.b1b17419.chunk.js.map",
+    "index.html": "/ApexCodingPlatform/index.html",
+    "precache-manifest.964057f478aa904ae618f33cfe6fba01.js": "/ApexCodingPlatform/precache-manifest.964057f478aa904ae618f33cfe6fba01.js",
+    "service-worker.js": "/ApexCodingPlatform/service-worker.js",
+    "static/css/2.1a6dc111.chunk.css.map": "/ApexCodingPlatform/static/css/2.1a6dc111.chunk.css.map",
+    "static/css/main.b0b8545d.chunk.css.map": "/ApexCodingPlatform/static/css/main.b0b8545d.chunk.css.map",
+    "static/js/2.b1b17419.chunk.js.LICENSE.txt": "/ApexCodingPlatform/static/js/2.b1b17419.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.93c6fb97.js",
+    "static/js/runtime-main.d0b7a474.js",
     "static/css/2.1a6dc111.chunk.css",
-    "static/js/2.c98b7fec.chunk.js",
+    "static/js/2.b1b17419.chunk.js",
     "static/css/main.b0b8545d.chunk.css",
-    "static/js/main.3efc9fc3.chunk.js"
+    "static/js/main.a5b2b45a.chunk.js"
   ]
 }
